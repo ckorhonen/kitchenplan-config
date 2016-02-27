@@ -1,0 +1,11 @@
+recipes:
+    mac_os_x:
+        - osxdefaults::set_terminal_profile
+attributes:
+    homebrewalt:
+        cask_apps:
+            - cloak
+            - dropbox
+            - firefox
+            - google-chrome
+            - hipchat

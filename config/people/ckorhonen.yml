@@ -1,0 +1,34 @@
+groups:
+    - developer
+    - minibar
+recipes:
+    mac_os_x:
+        - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
+        - osxdefaults::set_computer_name
+attributes:
+    osxdefaults:
+        computername: MiniChris
+    git:
+        name: Chris Korhonen
+        email: ckorhonen@gmail.com
+    authorization:
+        sudo:
+            users:
+                - ckorhonen
+            passwordless: true
+            include_sudoers_d: true
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+        cask_apps:
+            - 1password
+            - airserver
+            - arq   
+            - bartender
+            - carbon-copy-cloner
+            - kaleidoscope
+            - polymail
+            - screens-connect
+            - sonos
+            - transmission

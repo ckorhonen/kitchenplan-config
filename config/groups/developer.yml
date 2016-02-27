@@ -1,0 +1,37 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+    mac_os_x:
+        - applications::sublime_text_3
+        - osxdefaults::disable_disk_image_verification
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_unhide_home
+        - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
+attributes:
+    homebrewalt:
+        apps:
+            - elasticsearch
+            - git
+            - git-extras
+            - git-flow
+            - imagemagick
+            - phantomjs192
+            - pngcrush
+            - postgis
+            - rbenv
+            - redis
+        cask_apps:
+            - bee
+            - parallels-desktop
+            - paw
+            - postgres
+            - postico
+            - sketch
+            - soulver
+    nodejs:
+        apps:
+            - bower
+            - gulp
+            - uglify-js
+            - uglifycss
